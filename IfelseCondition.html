@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>java Script syntax</title>
+        <script defer>
+            function onClickNumber(){
+            debugger;
+            var number=document.getElementById("inputNumber").value;
+            var result=document.getElementById("pResult");
+            if(number ==2){
+             result.innerHTML="The number is two";
+            }else if(number ==3){
+            result.innerHTML="The number is three";
+            } else if(number ==5){
+            result.innerHTML="The number is five";
+            }else{
+            result.innerHTML="The number is another number";
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <label>Enter a number</label>
+        <input id="inputNumber" text="number">
+        <button id="btnResult" onclick="onClickNumber()">Checking</button>
+        <p id="pResult"></p>
+    </body>
+</html>
