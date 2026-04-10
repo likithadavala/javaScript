@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>javascript syntax</title>
+    <script defer>
+        function onClickNumber() {
+            debugger;
+            var number1 = document.getElementById("inputNumber1").value;
+            var number2 = document.getElementById("inputNumber2").value;
+            var result = document.getElementById("pResult");
+            if (number1 < number2) {
+                result.innerHTML = "The  biggest number is" + number1;
+            } else {
+                result.innerHTML = "The biggest number is" + number2;
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <label>Enter a number1</label>
+    <input id="inputNumber1" text="number">
+    <label>Enter a Number2</label>
+    <input id="inputNumber2" text="number">
+    <button id="btnBiggest" onclick="onClickNumber()">Biggest Number</button>
+    <p id="pResult"></p>
+</body>
+
+</html>
