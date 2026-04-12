@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dotrepeat</title>
+        <script defer>
+            function onClickDotRepeat(){
+                debugger;
+            var inputTest =document.getElementById("txtInputTest").value;
+            var repeatTest= Number(document.getElementById("txtRepeatTest").value);
+            document.getElementById("pResult").innerHTML=inputTest.repeat(repeatTest);
+            }
+        </script>
+        
+    </head>
+    <body>
+        <label>Input Test:</label>
+        <input id="txtInputTest" type="text" placeholder="Enter your Input Test">
+        <label>Repeat Test:</label>
+        <input id="txtRepeatTest" type="number" placeholder="Enter your Repeat Count">
+        <button id="btnSubmit" onclick="onClickDotRepeat()">Submit</button>
+        <p id="pResult"></p>
+        
+    </body>
+</html>

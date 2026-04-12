@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>java Script </title>
+        <script defer>
+            function onClickStringIndex(){
+                debugger; 
+                var stringName= document.getElementById("txtStringName").value;
+                var searchString=document.getElementById("txtStringSearch").value;
+                document.getElementById("pResult").innerHTML=stringName.indexOf(searchString);
+
+            }
+        </script>
+    </head>
+    <body>
+        <label>String Name</label>
+        <input id="txtStringName"type="text" placeholder="Enter String Name">
+        <label>String Search</label>
+        <input id="txtStringSearch" type="text" placeholder="Enter String Search">
+        <button id="btnFind" onclick="onClickStringIndex()">Find</button>
+        <p id="pResult"></p>
+    </body>
+</html>

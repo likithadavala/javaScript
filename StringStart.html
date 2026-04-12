@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>java Script syntax</title>
+        <script defer>
+            function onClickStringStartsWith(){
+                debugger;
+                var stringName=document.getElementById("txtStringName").value;
+                var stringSearch=document.getElementById("txtStringSearch").value;
+                document.getElementById("pResult").innerHTML=stringName.startsWith(stringSearch);
+            }
+        </script>
+    </head>
+<body>
+    <label>Sting Name</label>
+    <input id="txtStringName" type="text" placeholder="Enter stringName">
+    <label>String Search</label>
+    <input id="txtStringSearch" type="text" placeholder="Enter stringSearch">
+    <button id="btnFind" onclick="onClickStringStartsWith()">Find</button>
+    <p id="pResult"></p>
+</body>
+    </html>

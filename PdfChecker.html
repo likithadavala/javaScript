@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Checker</title>
+    <script defer>
+        function onClickPdfChecker() {
+            debugger
+            var fileName = document.getElementById("txtFileName").value;
+            if (fileName.endsWith(".pdf")) {
+                document.getElementById("pResult").innerHTML = "it is pdf"
+            } else {
+                document.getElementById("pResult").innerHTML = "it  is not pdf"
+            }else if{
+                
+            }
+        }
+    </script>
+</head>
+<body>
+    <label>File Name</label>
+    <input id="txtFileName" type="text" placeholder="Enter your File Name">
+    <button id="btnCheck" onclick="onClickPdfChecker()">check</button>
+    <p id="pResult"></p>
+</body>
+</html>

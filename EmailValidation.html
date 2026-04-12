@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email Validation</title>
+        <script defer>
+            function onClickCheckEmail(){
+                debugger;
+                var email=document.getElementById("txtEmail").value;
+                // if(email.includes("@")&& email.includes(".")){
+                // document.getElementById("pResult").innerHTML="Email is valid"
+                // } else {
+                // document.getElementById("pResult").innerHTML="Email is invalid"
+                // }
+                if(email.indexOf("@")<email.indexOf(".")){
+                document.getElementById("pResult").innerHTML="Emil is valid"
+                } else{
+                document.getElementById("pResult").innerHTML="Email is invalid"
+                }
+            }
+
+        </script>
+        
+    </head>
+    <boddy>
+        <label>Email</label>
+        <input id="txtEmail" type="text" placeholder="Enter your Email">
+        <button id="btnCheck" onclick="onClickCheckEmail()">check</button>
+        <p id="pResult"></p>
+        </boddy>
+</html>

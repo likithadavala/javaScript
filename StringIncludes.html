@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>java Script syntax</title>
+    <script defer>
+        function onClickStringIndex() {
+            debugger;
+            var stringName = document.getElementById("txtStringName").value;
+            var stringSearch= document.getElementById("txtStringInclude").value;
+            document.getElementById("pResult").innerHTML = stringName.includes(stringSearch);
+        }
+    </script>
+</head>
+
+<body></body>
+<label>String Name</label>
+<input id="txtStringName" type="text" placeholder="Enter stringName">
+<label>Sting Incude</label>
+<input id="txtStringInclude" type="text" placeholder="Enter StringInclude">
+<button id="btnFind" onclick="onClickStringIndex()">Find</button>
+<p id="pResult"></p>
+</body>
+
+</html>
