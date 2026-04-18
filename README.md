@@ -10,17 +10,29 @@ Java Script Basics
 3.remiander
 04-04-2026
 1.string.html
-<<<<<<< HEAD
 2.stringArray.html
 3.stringfunction.html
 
 =======
-2.stringarray.html
-3.stringfunction.html
-<<<<<<< HEAD
->>>>>>> 69eac41468b1586bc61d81c04a8d2fa9550d5fc7
+1.stringarray.html
+2.stringfunction.html
+3.concept.html
+
 =======
 08-04-2026
-1.even numbers
+1.even or odd numbers
 2.prime numbers
->>>>>>> 763f97c911ed4195c4830d9ac6be7603bc9498f3
+3.ifelsecondition.html
+4.stringincludes
+5.stringsearch
+6.stringstartswith
+7.stringendswith
+8.pdf checker
+8.secured website checker
+9.stringsplit
+10.dot repeat
+11.dot replace
+12.discount calculator
+13.largest of biggest number
+
+
