@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>subtracting numbers</title>
+    <script>
+        function onclicksub() {
+            debugger;
+            var firstNumber = Number(document.getElementById("txtFirstNumber").value);
+            var secondNumber = Number(document.getElementById("txtSecondNumber").value);
+            var subResult = firstNumber - secondNumber
+            document.getElementById("presult").innerHTML = subResult;
+        }
+    </script>
+</head>
+
+<body>
+    <label>FirstNumber</label>
+    <input id="txtFirstNumber" type="Number" placeholder="enter the firstNumber"></br>
+    <label>SecondNumber</label>
+    <input id="txtSecondNumber" type="Number" placeholder="enter the secondNumber"></br>
+    <button id="btnsub" onclick="onclicksub()">sub</button>
+    <p id="presult"></p>
+
+</body>
+
+</html>
