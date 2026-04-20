@@ -1,4 +1,4 @@
-function onClickStringInput() {
+function onClickStringInput(){
     debugger;
     var stringName = document.getElementById("txtStringInput").value;
     document.getElementById("pResult").innerHTML = stringName.split(".")[0];
