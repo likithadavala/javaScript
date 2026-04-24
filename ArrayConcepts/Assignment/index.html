@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Practice Problems</title>
+</head>
+
+<body>
+
+    <h2>1. Find Largest Number</h2>
+    <input type="text" id="arrayInput" placeholder="Enter numbers (e.g. 10,25,5,40)">
+    <button onclick="findLargest()">Find Largest</button>
+    <p id="largestResult"></p>
+
+    <hr>
+
+    <h2>2. Palindrome Number</h2>
+    <input type="number" id="numberInput" placeholder="Enter number">
+    <button onclick="checkPalindrome()">Check Palindrome</button>
+    <p id="palindromeResult"></p>
+
+    <hr>
+
+    <h2>3. Count Vowels</h2>
+    <input type="text" id="stringInput" placeholder="Enter text">
+    <button onclick="countVowels()">Count Vowels</button>
+    <p id="vowelResult"></p>
+
+    <script>
+        // 1. Largest Number
+        function findLargest() {
+            let input = document.getElementById("arrayInput").value;
+            let arr = [5,10,12,9,15]
+
+            let largest = arr[0];
+
+            for (let i = 1; i < arr.length; i++) {
+                if (arr[i] > largest) {
+                    largest = arr[i];
+                }
+            }
+
+            document.getElementById("largestResult").innerText = "Largest: " + largest;
+        }
+
+        // 2. Palindrome Number
+        function checkPalindrome() {
+            let num = Number(document.getElementById("numberInput").value);
+            let original = num;
+            let reversed = 0;
+
+            while (num > 0) {
+                let digit = num % 10;
+                reversed = reversed * 10 + digit;
+                num = Math.floor(num / 10);
+            }
+
+            let result = (original === reversed) ? "Palindrome" : "Not Palindrome";
+            document.getElementById("palindromeResult").innerText = result;
+        }
+
+        // 3. Count Vowels
+        function countVowels() {
+            let str = document.getElementById("stringInput").value;
+            let count = 0;
+            let vowels = "aeiouAEIOU";
+
+            for (let i = 0; i < str.length; i++) {
+                if (vowels.includes(str[i])) {
+                    count++;
+                }
+            }
+
+            document.getElementById("vowelResult").innerText = "Vowels: " + count;
+        }
+    </script>
+
+</body>
+</html>

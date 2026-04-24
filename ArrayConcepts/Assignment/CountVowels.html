@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Count Vowels</title>
+    <script defer>
+        function onClickStringName() {
+            let count = 0;
+            let vowels = "aeiouAEIOU";
+
+            for (let i = 0; i < str.length; i++) {
+                if (vowels.includes(str[i])) {
+                    count++;
+                }
+            }
+
+            return count;
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <label>String Name</label>
+    <input id="txtStringName" type="text">
+    <button id="btnSubmit" onclick="onClickStringName()">Submit</button>
+</body>
+
+</html>
