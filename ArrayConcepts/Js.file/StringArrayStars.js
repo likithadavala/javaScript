@@ -1,5 +1,5 @@
 
-function onClickTriangle() {
+function onClickStars() {
     debugger;
 
     var inputNumber = document.getElementById("txtInputNumber").value;

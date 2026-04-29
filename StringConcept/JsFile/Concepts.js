@@ -9,5 +9,6 @@ function onClickDisplay() {
         // alert(email);
         // alert(firstNames+secondName+email);
         // alert("my firstname is:"+firstName+",my secondname is:"+secondName+",my email is:"+email+".")
-        document.getElementById("pResult").innerHTML`my firstname is:${firstName},my secondname is:${secondName},my email is:${email}.`
+        document.getElementById("pResult").innerHTML`my firstname is:${firstName},my secondname is:$[secondName
+],my email is:${email}.`
 }
