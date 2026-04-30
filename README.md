@@ -26,10 +26,22 @@
 11.Dot Repeat
 12.Dot Replace
 13.Dot ReplaceAll
+14.Email Validation
+15.Element Calling
+16.Discount Calculation
 
 **Arrays**
 1.StringArray
-2.
+2.Introduction of Array
+3.Even and Odd
+4.ForLoop
+5.Add TO Array
+6.words of letters
+7.Mutable concepts
+8.2 Dimensional Array
+9.loginscreen and product screen
+
+
 
 
 
