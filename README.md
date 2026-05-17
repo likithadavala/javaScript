@@ -4,8 +4,9 @@ JavaScript is a programming language used to make websites interactive and dynam
 1.JavaScript is the programming language of the web.
 2.It can calculate, manipulate and validate data.
 3.It can update and change both HTML and CSS.
-In JavaScript, var, let, and const are used to declare variables.
-Variables are used to store data.
+In JavaScript, var, let, and const are used to declare variables.**
+**what is variable**
+Variables are used to store data. Variable is nothing but one of container we can able to store single value at a time.
 1. "var" is the old way to declare variables.
 2. "let" is the modern way to declare variables.
 3. "const" means constant.Used for fixed values.
@@ -42,6 +43,7 @@ Stores numbers (integer or decimal).
 8.Largest of two Biggest numbers
 
 **2. Strings**
+Collection of characters,collection of string and collection of symbols.
 1.Strings are for storing text
 2.Strings are written with quotes
 A String in JavaScript is a data type used to store text or characters.
@@ -116,6 +118,8 @@ In JavaScript, replace() is a string function used to replace one word or charac
 document.getElementById("pResult").innerHTML=sentences.replaceAll(word,replaceWord);
 
 **Arrays**
+collection of elements ,collection of numbers,collection of symbols.
+**why Array**
 In JavaScript, an Array is used to store multiple values in a single variable.
 Common Array Functions
 Function   - Purpose
