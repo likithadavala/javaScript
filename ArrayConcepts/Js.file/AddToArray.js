@@ -5,5 +5,5 @@ function onClickAddToArray() {
     var inputName = document.getElementById("txtInputName").value;
     flowers.push(inputName);
     document.getElementById("pResult").innerHTML = flowers;
-    document.getElementById("txtInputName").value = ""
+    document.getElementById("txtInputName").value = "";
 }
