@@ -18,7 +18,7 @@ function onClickMultiplication(){
     var firstNumber= Number(document.getElementById("txtFirstNumber").value);
     var secondNumber =Number(document.getElementById("txtSecondNumber").value);    
     document.getElementById("pMultipleResult").innerHTML=calucator(firstNumber,secondNumber,'multiple');
-}
+}0
 function onClickDivision(){
     debugger;
     var firstNumber= Number(document.getElementById("txtFirstNumber").value);
