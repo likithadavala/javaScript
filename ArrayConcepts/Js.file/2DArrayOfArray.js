@@ -10,3 +10,4 @@ function onClickArrayOfArray() {
     var secondIndex = Number(document.getElementById("txtSecondIndex").value);
     document.getElementById("pResult").innerHTML = nandGate[inputIndex][secondIndex];
 }
+
