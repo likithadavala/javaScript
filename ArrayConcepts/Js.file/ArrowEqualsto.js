@@ -32,7 +32,7 @@ const cube=(number)=>{
     return number*number;
 }
 const MultipleOfNumber=(number)=>{
-    return number*number;
+    return number*5;
 }
 const EvenOrOdd=(number)=>{
     if (number % 2 == 0) {
